@@ -1,0 +1,13 @@
+{
+  "expectedSize": 10,
+  "firstUser": {
+    "id": 1,
+    "email": "Sincere@april.biz",
+    "username": "Bret"
+  },
+  "lastUser": {
+    "id": 10,
+    "email": "Rey.Padberg@karina.biz",
+    "username": "Moriah.Stanton"
+  }
+}
