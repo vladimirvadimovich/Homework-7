@@ -1,0 +1,20 @@
+{
+  "$schema": "https://jsonplaceholder.typicode.com/posts",
+  "type": "array",
+  "minItems": 100,
+  "maxItems": 100,
+  "items": {
+    "type": "object",
+    "required": ["userId", "id", "title", "body"],
+    "properties": {
+      "userId": { "type": "integer" },
+      "id": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 100
+      },
+      "title": { "type": "string" },
+      "body": { "type": "string" }
+    }
+  }
+}
